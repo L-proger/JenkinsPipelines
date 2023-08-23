@@ -7,7 +7,7 @@ def call(body) {
     pipeline {
         // Variable inputs that modify the behavior of the job
         parameters {
-            choice(name: 'architecture', choices: ['win-x64', 'win-x86'], description: 'Pick architecture:')
+            
         }
 
         // Definition of env variables that can be used throughout the pipeline job
