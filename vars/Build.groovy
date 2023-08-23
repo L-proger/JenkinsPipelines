@@ -5,10 +5,7 @@ def call(body) {
     body()
 
     pipeline {
-        // Variable inputs that modify the behavior of the job
-        parameters {
-            
-        }
+
 
         // Definition of env variables that can be used throughout the pipeline job
         environment {
